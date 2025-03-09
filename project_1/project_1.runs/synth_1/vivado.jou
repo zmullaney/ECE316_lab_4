@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Mar  4 16:56:58 2025
+# Process ID         : 26032
+# Current directory  : C:/Users/zach/Documents/0_School/ECE316/lab-4/project_1/project_1.runs/synth_1
+# Command line       : vivado.exe -log flight_attendant_call_system.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source flight_attendant_call_system.tcl
+# Log file           : C:/Users/zach/Documents/0_School/ECE316/lab-4/project_1/project_1.runs/synth_1/flight_attendant_call_system.vds
+# Journal file       : C:/Users/zach/Documents/0_School/ECE316/lab-4/project_1/project_1.runs/synth_1\vivado.jou
+# Running On         : DESKTOP-BGLR1M6
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : AMD Ryzen 7 5700U with Radeon Graphics         
+# CPU Frequency      : 1797 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16476 MB
+# Swap memory        : 5313 MB
+# Total Virtual      : 21790 MB
+# Available Virtual  : 4187 MB
+#-----------------------------------------------------------
+source flight_attendant_call_system.tcl -notrace
