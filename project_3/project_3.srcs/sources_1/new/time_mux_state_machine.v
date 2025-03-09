@@ -1,5 +1,4 @@
 `timescale 1ns / 1ps
-
 module time_mux_state_machine(
     input clk, 
     input reset, 
@@ -9,12 +8,10 @@ module time_mux_state_machine(
     input [6:0] in3, 
     output reg [3:0] an,
     output reg [6:0] sseg
-//    output wire dp  // Declare dp as a wire
 );
 
 reg [1:0] state; 
 reg [1:0] next_state;
-//assign dp = 1'b1;  // Constant assignment to inactive
 
 always @(*) begin
     case(state)     // State transition
@@ -26,18 +23,12 @@ always @(*) begin
 end
 
 always @(*) begin 
-    case (state)    // Multiplexer 
-        2'b00 : sseg = in0;
-        2'b01 : sseg = in1; 
-        2'b10 : sseg = in2; 
-        2'b11 : sseg = in3; 
-    endcase
-
-    case (state)    // decoder
-        2'b00 : an = 4'b1110; 
-        2'b01 : an = 4'b1101; 
-        2'b10 : an = 4'b1011; 
-        2'b11 : an = 4'b0111; 
+    case (state)    // Multiplexer & Decoder
+        2'b00 : begin sseg = in0;     an = 4'b1110; end
+        2'b01 : begin sseg = in1;     an = 4'b1101; end
+        2'b10 : begin sseg = in2;     an = 4'b1011; end
+        2'b11 : begin sseg = in3;     an = 4'b0111; end
+        default: begin sseg = 4'b0000; an = 4'b1111; end    // default ot 0000 if state falls outside 2-bit range
     endcase
 end
 

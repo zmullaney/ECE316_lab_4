@@ -151,3 +151,15 @@ Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // [Engine Memory]: 792 MB (+6348kb) [00:00:16]
 // WARNING: HEventQueue.dispatchEvent() is taking  2777 ms.
 // Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/zach/Documents/Vivado/2024.2/data/ip'. 
+// [Engine Memory]: 845 MB (+14087kb) [00:00:17]
+// HMemoryUtils.trashcanNow. Engine heap size: 845 MB. GUI used memory: 75 MB. Current time: 3/8/25, 9:53:12 PM CST
+// Project name: project_3; location: C:/Users/zach/Documents/0_School/ECE316/lab-4/project_3; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bh (Open Project Progress)
+// [GUI Memory]: 146 MB (+10992kb) [00:00:20]
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, time_multiplexing_main (time_multiplexing_main.v)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, time_multiplexing_main (time_multiplexing_main.v)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed time: 10 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, time_multiplexing_main (time_multiplexing_main.v)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)

@@ -3,8 +3,8 @@
 # SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Fri Mar  7 23:52:13 2025
-# Process ID         : 27624
+# Start of session at: Sat Mar  8 22:05:31 2025
+# Process ID         : 8260
 # Current directory  : C:/Users/zach/Documents/0_School/ECE316/lab-4/project_3/project_3.runs/impl_1
 # Command line       : vivado.exe -log time_multiplexing_main.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source time_multiplexing_main.tcl -notrace
 # Log file           : C:/Users/zach/Documents/0_School/ECE316/lab-4/project_3/project_3.runs/impl_1/time_multiplexing_main.vdi
@@ -17,8 +17,8 @@
 # CPU Physical cores : 8
 # CPU Logical cores  : 16
 # Host memory        : 16476 MB
-# Swap memory        : 6943 MB
-# Total Virtual      : 23420 MB
-# Available Virtual  : 4355 MB
+# Swap memory        : 3892 MB
+# Total Virtual      : 20368 MB
+# Available Virtual  : 6702 MB
 #-----------------------------------------------------------
 source time_multiplexing_main.tcl -notrace

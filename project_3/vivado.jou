@@ -23,3 +23,4 @@
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/zach/Documents/0_School/ECE316/lab-4/project_3/project_3.xpr
+update_compile_order -fileset sources_1
